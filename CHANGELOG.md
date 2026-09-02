@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Fixed
+
+- GitHub's project page now shows the product README. A `.github/README.md` made GitHub hide the root README.
+
 ## [1.0.0] - 2026-09-03
 
 ### Added

@@ -21,6 +21,8 @@ If you bump GRDB, keep `Packages/Package.resolved` and
 `App/MacCleanup.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/Package.resolved`
 on the same version pin.
 
+CI is `.github/workflows/ci.yml` (package tests, workspace build, gitleaks). Actions are pinned by commit SHA. Do not put secrets or license keys in workflow files. The personal-account gitleaks-action does not need `GITLEAKS_LICENSE`.
+
 ## Product rules
 
 - **English** for UI strings and user-facing copy.

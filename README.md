@@ -78,7 +78,7 @@ Do **not** attach or paste `apply-report.json`, `catalog.sqlite`, a container du
 App/                 SwiftUI app (see App/README.md)
 Packages/            MacCleanupKit (see Packages/README.md)
 Fixtures/            Empty on purpose
-.github/             CI and issue forms (see .github/README.md)
+.github/             CI, issue forms, Dependabot
 MacCleanup.xcworkspace
 LICENSE
 CHANGELOG.md
