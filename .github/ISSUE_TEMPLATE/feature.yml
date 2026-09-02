@@ -1,0 +1,22 @@
+name: Feature request
+description: A short proposal for the product
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Keep it short. Do not attach dumps, reports, or filename screenshots.
+  - type: textarea
+    id: request
+    attributes:
+      label: What should change
+      description: Problem and the smallest change that would help.
+    validations:
+      required: true
+  - type: checkboxes
+    id: no-private-data
+    attributes:
+      label: No private files
+      options:
+        - label: This request does not include dumps, ChatStorage, enc-key, apply-report.json, or filename screenshots.
+          required: true

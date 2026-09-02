@@ -1,0 +1,48 @@
+name: Bug report
+description: Something does not work as expected
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks. This form blocks the usual private-data leaks. There is no project email.
+  - type: checkboxes
+    id: no-private-data
+    attributes:
+      label: I am not attaching private data
+      description: Required. Reports that include these files will be closed.
+      options:
+        - label: I am not attaching a WhatsApp (or other) container copy, ChatStorage, Axolotl, or enc-key.
+          required: true
+        - label: I am not attaching apply-report.json or catalog.sqlite.
+          required: true
+        - label: I am not pasting my home or Library path, and any screenshot does not show my filenames.
+          required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: Expected vs actual. English is fine.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps
+      description: How to reproduce on a small folder (not a huge container).
+    validations:
+      required: true
+  - type: input
+    id: macos
+    attributes:
+      label: macOS version
+      placeholder: "15.x"
+    validations:
+      required: true
+  - type: input
+    id: app-version
+    attributes:
+      label: mac-cleanup version
+      placeholder: "1.0.0 (About panel)"
+    validations:
+      required: false

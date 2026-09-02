@@ -1,0 +1,5 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# App icons — do not let text=auto treat these as text
+*.png binary
